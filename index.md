@@ -1,38 +1,74 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/bsalponia/bsalponia.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-#### Bhriguraj Salponia
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bsalponia/bsalponia.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bhriguraj Salponia</title>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- bootstrap cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+		<!-- bootstrap icon cdn -->
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+		<style>
+		
+			#pageColor{
+				background-color: #E1F5FE;
+				color: #212121;
+			}
+		
+			.container-fluid{
+				padding-top: 70px;
+				padding-bottom: 70px;
+				font-family: Monaco, monospace;
+			}
+			
+			#paragraphId{
+				font-size:15px;
+				padding-top: 30px;
+				padding-bottom: 10px;
+				
+			}
+			
+			.imgPadding{
+				padding-right:7px;
+			}
+		
+		</style>
+		
+		
+	</head>
+	<body id="pageColor">
+	
+		<div class="container-fluid text-center">
+	
+			<img class="img-circle" src="https://lh3.googleusercontent.com/oVrnCK7dqjFU014gFQNb7NufChqZXqDyNIfukg2CcLFixPsIzgLG6WnPHe-2ArLlEMy4OM6sUQ=w1366-h768-rw-no" 
+				alt="Picture" width="124" height="124"/>
+	
+			<h2><b>Bhriguraj Salponia</b></h2>
+	
+			<p id="paragraphId">
+				I'm a software developer in
+				<a href="http://maps.google.com/?q=New Delhi" style=" text-decoration: none">
+				New Delhi, India.</a><br>
+				I primarily develop
+				for Android and focus on writing efficient, <br>maintainable and reusable code.
+				</p>
+				
+			<a class="imgPadding" href="https://in.linkedin.com/in/bhriguraj-salponia-786924101">
+				<span class="fa fa-linkedin" style="font-size: 20px"></a>
+	
+			<a class="imgPadding" href="https://github.com/bsalponia">
+				<span class="fa fa-github" style="font-size: 20px"></a>
+	
+			<a href="mailto:bsalponia@gmail.com">
+				<span class="glyphicon glyphicon-envelope" style="font-size: 17px"></a>
+	
+		</div>
+	</body>
+</html>
+	
