@@ -1,3 +1,3 @@
-# bsalponia.github.io
+# GitHub Pages
 
-GitHub Pages, what more should I say.
+goto: bsalponia.github.io
